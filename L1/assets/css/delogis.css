@@ -3252,7 +3252,7 @@ ul {
 .about-one__btn-box {
   position: relative;
   display: block;
-  margin-left: 100px;
+  margin-left: 40px;
 }
 
 /*--------------------------------------------------------------
@@ -8550,7 +8550,7 @@ ul {
 .feature-three__content {
   position: relative;
   display: block;
-  background-color: var(--delogis-base);
+  background-color: #a25a6b;
   padding: 33px 40px 35px;
   margin-top: -89px;
   margin-right: 240px;
@@ -15630,3 +15630,24 @@ margin-left: 8px;
     width:100%;
     height:100%;
   }
+
+
+  .pt-60{
+      padding-top:60px;
+  }
+
+  .pb-30{
+      padding-bottom:30px;
+  }
+
+  .awards-one h2{
+      font-size:40px;
+  }
+
+  .mt-20{
+      margin-top:20px;
+  }
+
+.pb-80{
+    padding-bottom:80px;
+}
