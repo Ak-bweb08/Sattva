@@ -3729,7 +3729,7 @@ ul {
 }
 
 .get-one__points-single {
-  position: relative;
+  /*position: relative;
   display: flex;
   align-items: center;
   padding: 20px 20px 20px;
@@ -3737,7 +3737,17 @@ ul {
   background-color: var(--delogis-black);
   margin-bottom: 30px;
   overflow: hidden;
-  z-index: 1;
+  z-index: 1;*/
+    position: relative;
+    display: block;
+    align-items: center;
+    padding: 20px 3px;
+    border-radius: var(--delogis-bdr-radius);
+    background-color: #a25a6b;
+    margin-bottom: 30px;
+    overflow: hidden;
+    z-index: 1;
+    text-align: center;
 }
 
 .get-one__points-single::before {
@@ -3784,7 +3794,7 @@ ul {
 }
 
 .get-one__points-title {
-  margin-left: 20px;
+  /*margin-left: 20px;*/
   transform: translateY(0%);
   transition: opacity 500ms ease, visibility 500ms ease, transform 500ms ease;
   visibility: visible;
@@ -3799,7 +3809,8 @@ ul {
 }
 
 .get-one__points-title h4 {
-  font-size: 19px;
+  /*font-size: 19px;*/
+  font-size: 14px;
   font-weight: 400;
   line-height: 29px;
 }
@@ -3810,8 +3821,8 @@ ul {
 
 .get-one__points-text-box {
   position: absolute;
-  left: 94px;
-  right: 40px;
+  /*left: 94px;
+  right: 40px;*/
   top: 15px;
   transform: translateY(-100px);
   transition: opacity 500ms ease, visibility 500ms ease, transform 500ms ease;
@@ -3819,10 +3830,18 @@ ul {
   opacity: 1;
 }
 
+.get-one__points-text-box a{
+    font-size:14px;
+}
+
 .get-one__points-single:hover .get-one__points-text-box {
   visibility: visible;
   transform: translateY(0%);
   opacity: 1;
+  width: 100%;
+}
+.get-one__points-single:hover .get-one__points-text-box a{
+  color: #50232e;
 }
 
 .get-one__points-text {
@@ -4831,7 +4850,7 @@ ul {
 .why-choose-one__single {
   position: relative;
   display: block;
-  background-color: var(--satvaa-pink-light);
+  background-color:#c298a2;
   border-radius: var(--delogis-bdr-radius);
   padding: 40px 40px 37px;
 }
@@ -4879,13 +4898,13 @@ ul {
 }
 
 .why-choose-one__list li .title h3 a {
-  color: var(--delogis-black);
+  color: #ffffff;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
 .why-choose-one__list li .title h3 a:hover {
-  color: var(--delogis-base);
+  color: #733947;
 }
 
 /*--------------------------------------------------------------
@@ -6661,7 +6680,7 @@ ul {
 .tabs-one {
   position: relative;
   display: block;
-  margin-top: -60px;
+  /*margin-top: -60px;*/
   z-index: 2;
 }
 
@@ -6669,7 +6688,7 @@ ul {
   position: relative;
   display: block;
   border-radius: var(--delogis-bdr-radius);
-  background-color: rgb(91, 64, 52);
+  background-color: #f6edef;
   box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
   padding: 60px 60px 60px;
   z-index: 1;
@@ -6689,6 +6708,7 @@ ul {
 .tabs-one__inner .tab-buttons {
   position: relative;
   display: block;
+  text-align:center;
 }
 
 .tabs-one__inner .tab-buttons .tab-btn {
@@ -6708,8 +6728,8 @@ ul {
   transition-delay: 0.1s;
   font-size: 17px;
   line-height: 17px;
-  color: var(--delogis-white);
-  background-color: #4f372c;
+  color: var(--satvaa-pink-darker);
+  background-color: #fff;
   padding: 20px 30px 23px;
   border-radius: var(--delogis-bdr-radius);
   font-weight: 400;
@@ -6720,7 +6740,7 @@ ul {
 }
 
 .tabs-one__inner .tab-buttons .tab-btn.active-btn span {
-  color: var(--delogis-black);
+  color: var(--delogis-white);
 }
 
 .tabs-one__inner .tab-buttons .tab-btn span:before {
@@ -6731,7 +6751,7 @@ ul {
   bottom: 0;
   height: 0%;
   content: "";
-  background-color: var(--delogis-white);
+  background-color: #a25a6b;
   border-radius: var(--delogis-bdr-radius);
   transition: all 0.3s ease;
   z-index: -1;
@@ -13913,7 +13933,7 @@ ul {
   line-height: 34px;
   color: var(--satvaa-pink-darker);
   margin-top: 24px;
-  margin-bottom: 31px;
+  margin-bottom: 20px;
 }
 
 .services-details__title-3 {
@@ -13942,8 +13962,10 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 129px;
-  height: 129px;
+  /*width: 129px;
+  height: 129px;*/
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   background-color: var(--delogis-primary);
   margin: 0 auto;
@@ -15650,4 +15672,8 @@ margin-left: 8px;
 
 .pb-80{
     padding-bottom:80px;
+}
+
+.mt-90{
+    margin-top:90px;
 }
