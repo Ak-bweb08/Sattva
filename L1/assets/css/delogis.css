@@ -6803,7 +6803,7 @@ ul {
             text-align: center;
             transition: all 200ms linear;
             transition-delay: 0.1s;
-            font-size: 17px;
+            font-size: 16px;
             line-height: 17px;
             color: var(--satvaa-pink-darker);
             background-color: #fff;
@@ -15784,4 +15784,12 @@ video {
 
 .mt-90 {
     margin-top: 90px;
+}
+
+.mt-40{
+    margin-top:40px;
+}
+
+.ptb-90{
+    padding:90px 0;
 }
