@@ -598,12 +598,18 @@ ul {
 
 .stricky-fixed .logo-box .main-menu__logo {
     position: absolute;
-    float: left;
+    float: right;
     /* padding: 0px 0px; */
     z-index: 10;
     background: transparent;
     padding: 5px;
     top: 0px;
+    left:90%;
+}
+
+.stricky-fixed .logo-box .main-menu__logo a{
+    left:0;
+    position:absolute;
 }
 
 .main-menu__logo a {
