@@ -588,9 +588,9 @@ ul {
     float: right;
     /* padding: 0px 0px; */
     z-index: 10;
-    background: #dbdbdbdb;
-    padding: 20px;
-    padding-top: 10px;
+    /*background: #dbdbdbdb;*/
+    background: #fff;
+    padding: 10px 20px 20px 20px;
     left: -50px;
     top: -15px;
     border-radius: 0px 0px 30px 30px;
@@ -621,7 +621,7 @@ ul {
 }
 
     .main-menu__logo a img {
-        max-width: 120px;
+        max-width: 140px;
     }
 
 .main-menu__btn-box {
@@ -15804,4 +15804,10 @@ video {
     background-color: #f1dde2;
     padding: 20px;
     border-radius: 15px;
+}
+
+.team .about-one__btn-box{
+    text-align:center;
+    margin-top:30px;
+    margin-left:0px;
 }
