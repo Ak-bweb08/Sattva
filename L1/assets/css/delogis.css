@@ -15799,3 +15799,9 @@ video {
 .ptb-90{
     padding:90px 0;
 }
+
+.treatment-box{
+    background-color: #f1dde2;
+    padding: 20px;
+    border-radius: 15px;
+}
