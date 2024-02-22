@@ -19,6 +19,7 @@
 --------------------------------------------------------------*/
 @import url("'../fonts/A little sunshine.ttf'");
 
+@import url("'../fonts/AlexBrush-Regular.ttf");
 :root {
     --delogis-font: 'Lexend', sans-serif;
     --delogis-font-two: 'Castoro', serif;
@@ -50,6 +51,12 @@
     font-family: 'A little sunshine';
     src: url('../fonts/A little sunshine.ttf') format('truetype');
 }
+
+@font-face {
+    font-family: 'AlexBrush-Regular';
+    src: url('../fonts/AlexBrush-Regular.ttf') format('truetype');
+}
+
 
 .gutter-y-30 {
     --bs-gutter-y: 30px;
@@ -3385,9 +3392,10 @@ ul {
 }
 
 .feature-one__hover-title {
-    font-size: 24px;
-    font-weight: 400;
+    font-size: 29px;
+    font-weight: 600;
     line-height: 27px;
+    font-family:AlexBrush-Regular;
 }
 
     .feature-one__hover-title a {
@@ -3489,9 +3497,10 @@ ul {
     }
 
 .feature-one__title {
-    font-size: 20px;
-    font-weight: 400;
+    font-size: 27px;
+    font-weight: 500;
     line-height: 27px;
+    font-family:AlexBrush-Regular;
 }
 
     .feature-one__title a {
@@ -14162,7 +14171,8 @@ ul {
     .services-details__benefit-points li {
         position: relative;
         display: flex;
-        align-items: center;
+        /*align-items: center;*/
+        align-items:baseline;
     }
 
         .services-details__benefit-points li + li {
@@ -15810,4 +15820,27 @@ video {
     text-align:center;
     margin-top:30px;
     margin-left:0px;
+}
+
+.therapies ul li{
+    width:19%;
+}
+
+.therapies .tabs-one__inner .tab-buttons .tab-btn span{
+    font-size: 14px;
+    padding: 20px 0px;
+}
+
+.teenager-img span {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 53px;
+    height: 53px;
+    font-size: 24px;
+    color: var(--delogis-white);
+    background-color: var(--satvaa-pink-dark);
+    /* background-color: var(--delogis-base); */
+    border-radius: 50%;
 }
