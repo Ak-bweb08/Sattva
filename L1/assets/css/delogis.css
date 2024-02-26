@@ -15529,7 +15529,8 @@ body.boxed-wrapper {
 
     .team .member .pic {
         overflow: hidden;
-        width: 200px;
+        /*width: 200px;*/
+        width:-webkit-fill-available;
         border-radius: 4px;
     }
 
@@ -15822,8 +15823,9 @@ video {
     margin-left:0px;
 }
 
-.therapies ul li{
-    width:19%;
+.therapies .tab-buttons li{
+    /*width:16.66%;*/
+    width:15.66%;
 }
 
 .therapies .tabs-one__inner .tab-buttons .tab-btn span{
@@ -15843,4 +15845,52 @@ video {
     background-color: var(--satvaa-pink-dark);
     /* background-color: var(--delogis-base); */
     border-radius: 50%;
+}
+
+.icon-box img{
+    width: auto;
+    height: 80px;
+    text-align: center;
+}
+
+.icon-box{
+    background-color: #a25a6b;
+    padding: 15px;
+
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    height: 150px;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+
+.icon-box h4{
+    margin-top: 15px;
+    /*font-size: 22px;*/
+    font-size: 14px;
+    color: #fff;
+}
+
+/*li.tab-btn.active-btn {
+    -webkit-box-shadow: -1px 0px 22px -4px rgba(15,111,222,1);
+    -moz-box-shadow: -1px 0px 22px -4px rgba(15,111,222,1);
+    box-shadow: -1px 0px 22px -4px rgb(162 90 107);
+}*/
+
+.tabs-one__inner .tab-buttons .tab-btn.active-btn .icon-box{
+    -webkit-box-shadow: -1px 0px 22px -4px rgba(15,111,222,1);
+    -moz-box-shadow: -1px 0px 22px -4px rgba(15,111,222,1);
+    box-shadow: -1px 6px 22px -4px rgb(162 90 107);
+    background-color: #953d51;
+}
+
+.title-box{
+    background-color: #f6edef;
+    padding: 20px 12px;
+    text-align: center;
+}
+
+.selfcare .nav-tabs{
+    border:none !important;
 }
