@@ -57,7 +57,6 @@
     src: url('../fonts/AlexBrush-Regular.ttf') format('truetype');
 }
 
-
 .gutter-y-30 {
     --bs-gutter-y: 30px;
 }
