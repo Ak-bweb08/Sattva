@@ -3455,8 +3455,10 @@ ul {
     border-radius: var(--delogis-bdr-radius);
     background-color: rgb(255, 255, 255);
     box-shadow: 0px 10px 60px 0px rgba(0, 0, 0, 0.1);
-    padding: 78px 14px 30px;
-    margin-top: -134px;
+    /*padding: 78px 14px 30px;*/
+    padding: 30px 14px;
+    /*margin-top: -134px;*/
+    margin-top: -86px;
     margin-left: 20px;
     margin-right: 20px;
     background-position: center bottom;
@@ -3752,7 +3754,8 @@ ul {
     position: relative;
     display: flex;
     align-items: center;
-    padding: 20px 20px 20px;
+    /*padding: 20px 20px 20px;*/
+    padding: 20px 0px 20px 20px;
     border-radius: var(--delogis-bdr-radius);
     background-color: var(--delogis-black);
     margin-bottom: 30px;
@@ -3907,9 +3910,12 @@ ul {
 
 .get-one__points-text-box {
     position: absolute;
-    left: 94px;
-    right: 40px;
-    top: 15px;
+    /*left: 94px;
+    right: 40px;*/
+    left: 88px;
+    right: 25px;
+    /*top: 15px;*/
+    top: 7px;
     transform: translateY(-100px);
     transition: opacity 500ms ease, visibility 500ms ease, transform 500ms ease;
     visibility: hidden;
@@ -3932,7 +3938,8 @@ ul {
     }
 
 .get-one__points-text {
-    font-size: 13px;
+    /*font-size: 13px;*/
+    font-size: 12px;
     line-height: 20px;
 }
 
@@ -13953,7 +13960,8 @@ ul {
         height: 51px;
         font-size: 23px;
         color: var(--satvaa-pink-dark);
-        background-color: var(--delogis-white);
+        /*background-color: var(--delogis-white);*/
+        background-color: #a25a6b;
         border-radius: 50%;
         -webkit-transition: all 500ms ease;
         transition: all 500ms ease;
@@ -13961,7 +13969,8 @@ ul {
 
         .services-details__documents .icon span:hover {
             color: var(--delogis-white);
-            background-color: var(--delogis-base);
+            /*background-color: var(--delogis-base);*/
+            background-color: #c298a2;
         }
 
 .services-details__documents .content {
@@ -13971,7 +13980,8 @@ ul {
 }
 
     .services-details__documents .content h3 {
-        font-size: 17px;
+        /*font-size: 17px;*/
+        font-size: 15px;
         font-weight: 400;
         line-height: 17px;
         font-family: var(--delogis-font);
@@ -15853,7 +15863,8 @@ video {
 }
 
 .icon-box{
-    background-color: #a25a6b;
+    /*background-color: #a25a6b;*/
+    background-color: #c298a2;
     padding: 15px;
 
     padding: 15px;
@@ -15892,4 +15903,16 @@ video {
 
 .selfcare .nav-tabs{
     border:none !important;
+}
+
+.therapy-section .services-details__documents{
+        border: 1px solid #a25a6b;
+}
+
+.therapy-section .services-details__documents-list li{
+        background-color: #ffffff;
+}
+
+.about-page .about-one__btn-box{
+    margin-left:0px;
 }
